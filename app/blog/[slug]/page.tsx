@@ -1,11 +1,33 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getPostBySlug } from "@/lib/posts";
+import type { Metadata } from "next";
 
 type Props = {
     params: Promise<{
         slug: string;
     }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+    const { slug } = await params;
+    const post = await getPostBySlug(slug);
+
+    return {
+        title: post.title,
+        description: post.excerpt,
+        openGraph: {
+            title: post.title,
+            description: post.excerpt,
+            type: "article",
+        },
+        twitter: {
+            card: "summary_large_image",
+            title: post.title,
+            description: post.excerpt,
+        },
+    };
+}
 
 export default async function PostPage({ params }: Props) {
     const { slug } = await params;
@@ -29,6 +51,18 @@ export default async function PostPage({ params }: Props) {
                     <h1 className="mb-6 text-4xl font-bold leading-tight md:text-5xl">
                         {post.title}
                     </h1>
+
+                    {post.coverImage && (
+                        <div className="relative mb-10 h-[420px] overflow-hidden rounded-3xl shadow-sm">
+                            <Image
+                                src={post.coverImage}
+                                alt={post.title}
+                                fill
+                                priority
+                                className="object-cover"
+                            />
+                        </div>
+                    )}
 
                     <p className="mb-6 text-sm text-stone-400">{post.date}</p>
 

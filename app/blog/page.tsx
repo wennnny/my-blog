@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getAllPosts } from "@/lib/posts";
 
 export default function BlogPage() {
@@ -14,6 +15,16 @@ export default function BlogPage() {
                         <Link key={post.slug} href={`/blog/${post.slug}`}>
                             <article className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
 
+                                {post.coverImage && (
+                                    <div className="relative mb-5 h-56 overflow-hidden rounded-2xl">
+                                        <Image
+                                            src={post.coverImage}
+                                            alt={post.title}
+                                            fill
+                                            className="object-cover transition duration-500 hover:scale-105"
+                                        />
+                                    </div>
+                                )}
                                 <p className="mb-2 text-sm text-stone-500">
                                     {post.date}
                                 </p>
