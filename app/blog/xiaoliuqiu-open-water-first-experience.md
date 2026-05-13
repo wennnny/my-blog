@@ -20,7 +20,7 @@ affiliate:
 
   - title: "小琉球住宿推薦"
     description: "第一次到小琉球潛水，可以先從交通方便、離港口近的住宿開始找。"
-    href: "https://www.agoda.com/"
+    href: "https://www.agoda.com/zh-tw/h59706306/hotel/liuqiu-tw.html?ds=ykkKuvMjaeCALmJB"
     buttonText: "查看住宿"
 
   - title: "潛水行程與體驗"
