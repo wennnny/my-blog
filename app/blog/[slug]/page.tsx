@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { getPostBySlug } from "@/lib/posts";
 import type { Metadata } from "next";
+import AffiliateCard from "@/components/AffiliateCard";
 
 type Props = {
     params: Promise<{
@@ -71,22 +72,52 @@ export default async function PostPage({ params }: Props) {
 
                 <div
                     className="
-            prose prose-stone max-w-none
-            rounded-3xl bg-white px-8 py-10 shadow-sm md:px-12
-            prose-headings:font-bold
-            prose-h1:text-3xl
-            prose-h2:mt-12 prose-h2:text-2xl
-            prose-h3:text-xl
-            prose-p:leading-8
-            prose-li:leading-8
-            prose-blockquote:border-l-stone-300
-            prose-blockquote:text-stone-600
-            prose-hr:hidden
-          "
+                        prose prose-stone max-w-none
+                        rounded-3xl bg-white px-8 py-10 shadow-sm md:px-12
+                        prose-headings:font-bold
+                        prose-h1:text-3xl
+                        prose-h2:mt-12 prose-h2:text-2xl
+                        prose-h3:text-xl
+                        prose-p:leading-8
+                        prose-li:leading-8
+                        prose-blockquote:border-l-stone-300
+                        prose-blockquote:text-stone-600
+                        prose-hr:hidden
+                        prose-img:rounded-3xl
+                        prose-img:shadow-md
+                        prose-img:my-10
+                        prose-img:w-full
+                        prose-img:object-cover
+                    "
                     dangerouslySetInnerHTML={{
                         __html: post.contentHtml,
                     }}
                 />
+                <div className="mt-12 space-y-6">
+
+                    <AffiliateCard
+                        title="小琉球住宿推薦"
+                        description="如果是第一次到小琉球潛水，可以先從交通方便、離港口近的住宿開始找。"
+                        href="https://www.agoda.com/"
+                        buttonText="查看住宿"
+                    />
+
+                    <AffiliateCard
+                        title="潛水行程與體驗"
+                        description="Klook 與 KKday 上其實有很多小琉球潛水、船票與套裝行程可以直接預訂。"
+                        href="https://www.klook.com/"
+                        buttonText="查看行程"
+                    />
+
+                    <AffiliateCard
+                        title="新手潛水裝備推薦"
+                        description="如果開始喜歡潛水，第一個最值得投資的通常是自己的面鏡與電腦錶。"
+                        href="https://shopee.tw/"
+                        buttonText="查看裝備"
+                    />
+
+                </div>
+
             </article>
         </main>
     );

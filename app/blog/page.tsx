@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { getAllPosts } from "@/lib/posts";
+import AffiliateCard from "@/components/AffiliateCard";
 
 export default function BlogPage() {
     const posts = getAllPosts();

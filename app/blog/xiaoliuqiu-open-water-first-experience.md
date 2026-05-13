@@ -5,6 +5,7 @@ excerpt: "第一次到小琉球考 OW 潛水證照，從新手害怕到真正愛
 coverImage: "/images/blog/xiaoliuqiu-ow-cover.jpg"
 ---
 
+
 # 我的第一次小琉球 OW 潛水紀錄｜新手 Open Water 初體驗
 
 2026/03/27 - 2026/03/29  
@@ -79,6 +80,7 @@ OW 全名是：
 
 剛開始會很沒安全感，但慢慢抓到呼吸節奏後，真的會開始享受漂浮感。
 
+![第一次水肺潛水海洋實習紀錄](/images/blog/xiaoliuqiu-ow/ow_2.jpg)
 
 # 小琉球的海真的很漂亮
 
@@ -136,6 +138,7 @@ OW 全名是：
 
 拍了很多照片，也第一次真正感受到海底世界的魅力。
 
+![小琉球海邊與潛水行程](/images/blog/xiaoliuqiu-ow/ow_1.jpg)
 
 
 # 新手潛水需要準備什麼？
@@ -246,7 +249,7 @@ OW 全名是：
 
 如果是第一次接觸 OW，我覺得是很安心的體驗。
 
-官方網站：  
+官方網站： 
 https://www.bbd.com.tw/
 
 
@@ -266,3 +269,5 @@ https://www.bbd.com.tw/
 - 自由潛水
 
 也許之後這裡會慢慢變成一個潛水與海島生活的紀錄網站。
+
+![第一次小琉球 OW 潛水準備](/images/blog/xiaoliuqiu-ow/cat.jpg)
