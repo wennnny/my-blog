@@ -30,6 +30,7 @@ export function getAllPosts() {
 }
 
 export async function getPostBySlug(slug: string) {
+
     const fullPath = path.join(postsDirectory, `${slug}.md`);
 
     const fileContents = fs.readFileSync(fullPath, "utf8");
@@ -48,6 +49,8 @@ export async function getPostBySlug(slug: string) {
         date: data.date,
         excerpt: data.excerpt,
         coverImage: data.coverImage,
+        toc: data.toc ?? [],
         contentHtml,
+        affiliate: data.affiliate ?? [],
     };
 }

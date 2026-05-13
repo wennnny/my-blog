@@ -3,6 +3,35 @@ title: "我的第一次小琉球 OW 潛水紀錄｜新手 Open Water 初體驗"
 date: "2026-05-12"
 excerpt: "第一次到小琉球考 OW 潛水證照，從新手害怕到真正愛上海底世界的三天紀錄。"
 coverImage: "/images/blog/xiaoliuqiu-ow-cover.jpg"
+toc:
+  - title: "為什麼想開始學潛水？"
+    id: "why-diving"
+
+  - title: "OW 是什麼？"
+    id: "what-is-ow"
+
+  - title: "新手潛水需要準備什麼？"
+    id: "beginner-equipment"
+affiliate:
+  - title: "船票推薦!!!"
+    description: "不管你是從哪裡要去小琉球，高鐵接送、船票、機車租借一次搞定!"
+    href: "https://www.kkday.com/zh-tw/product/100243-pingtung-donggang-xiaoliuqiu-ferry-ticket-taifu?cid=25012"
+    buttonText: "查看住宿"
+
+  - title: "小琉球住宿推薦"
+    description: "第一次到小琉球潛水，可以先從交通方便、離港口近的住宿開始找。"
+    href: "https://www.agoda.com/"
+    buttonText: "查看住宿"
+
+  - title: "潛水行程與體驗"
+    description: "Klook 與 KKday 上有很多小琉球潛水、船票與套裝行程可以預訂。"
+    href: "https://www.aguidive.com/"
+    buttonText: "查看行程"
+
+  - title: "新手潛店推薦"
+    description: "如果開始喜歡潛水，第一個最值得投資的就是擁有一個可以讓你融入當地的教練團對!!!"
+    href: "https://www.aguidive.com/"
+    buttonText: "查看裝備"
 ---
 
 
@@ -16,7 +45,7 @@ coverImage: "/images/blog/xiaoliuqiu-ow-cover.jpg"
 老實說，在真正下水前，我其實非常緊張。
 
 
-# 為什麼想開始學潛水？
+## 為什麼想開始學潛水？ <span id="why-diving"></span>
 
 一直很喜歡海。
 
@@ -33,7 +62,7 @@ coverImage: "/images/blog/xiaoliuqiu-ow-cover.jpg"
 第一次下潛時，那種安靜到只能聽見氣泡的感覺，其實非常震撼。
 
 
-# OW（Open Water）是什麼？
+## OW（Open Water）是什麼？ <span id="what-is-ow"></span>
 
 OW 全名是：
 
@@ -141,7 +170,7 @@ OW 全名是：
 ![小琉球海邊與潛水行程](/images/blog/xiaoliuqiu-ow/ow_1.jpg)
 
 
-# 新手潛水需要準備什麼？
+## 新手潛水需要準備什麼？ <span id="beginner-equipment"></span>
 
 其實 OW 課程大部分裝備潛店都會提供。
 
