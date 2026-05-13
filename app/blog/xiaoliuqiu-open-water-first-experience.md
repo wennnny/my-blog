@@ -25,7 +25,7 @@ affiliate:
 
   - title: "潛水行程與體驗"
     description: "Klook 與 KKday 上有很多小琉球潛水、船票與套裝行程可以預訂。"
-    href: "https://www.aguidive.com/"
+    href: "https://affiliate.klook.com/redirect?aid=121052&aff_adid=1276640&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Fdestination%2Fp50294385-lambai-island%2F1-things-to-do%2F%3F_currency%3DTWD%26campaignid%3D22928465499%26adgroupid%3D184609775459%26targetid%3Dkwd-327159652499%26matchtype%3De%26device%3Dc%26creative%3D771132774473%26extensionid%3D%26keyword%3D%25E5%25B0%258F%2520%25E7%2590%2589%25E7%2590%2583%2520%25E6%25BD%259B%25E6%25B0%25B4%26loc_interest_ms%3D%26loc_physical_ms%3D9224204%26network%3Dg%26utm_content%3Dcampaignid_22928465499_adgroupid_184609775459%26gad_source%3D1%26gad_campaignid%3D22928465499%26gbraid%3D0AAAAACa_CWxo0EiqiNkbpFGo8oEXkrTqC%26gclid%3DCjwKCAjwwpDQBhAuEiwAa-4WozLhIpfEVnjNaZD4Nm7Bv_z8Pky5PuYOvfS8yg6upOST0HIWO2e9OBoCU_gQAvD_BwE"
     buttonText: "查看行程"
 
   - title: "新手潛店推薦"
