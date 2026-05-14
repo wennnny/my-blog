@@ -83,6 +83,8 @@ export default function RootLayout({
         </Script>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6375877304346058"
           crossOrigin="anonymous"></script>
+
+        <meta name="agd-partner-manuak-verification" />
         <Navbar />
         {children}
         <Footer />
