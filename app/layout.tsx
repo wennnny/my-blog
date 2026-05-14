@@ -81,6 +81,8 @@ export default function RootLayout({
             gtag('config', 'G-6CGEKY29D2');
           `}
         </Script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6375877304346058"
+          crossOrigin="anonymous"></script>
         <Navbar />
         {children}
         <Footer />
